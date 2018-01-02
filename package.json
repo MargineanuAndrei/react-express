@@ -1,0 +1,29 @@
+{
+    "name": "react-express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "client": "npm start --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MargineanuAndrei/react-express.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MargineanuAndrei/react-express/issues"
+    },
+    "homepage": "https://github.com/MargineanuAndrei/react-express#readme",
+    "dependencies": {
+        "concurrently": "^3.5.1",
+        "express": "^4.16.2"
+    },
+    "devDependencies": {
+        "nodemon": "^1.14.7"
+    }
+}
